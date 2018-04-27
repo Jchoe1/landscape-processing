@@ -1,0 +1,21 @@
+
+
+  void setup() {
+    size(800, 800);
+  }
+
+
+  void draw() {
+    background(#66FFFF);
+
+    //Ground
+    noStroke();
+    fill(#00FF00);
+    rect(0, height-200, width, 100);
+
+    //Sun
+    noStroke();
+    fill(#FFFF33);
+    ellipse(width-200, 200, 150, 150);
+
+  }
